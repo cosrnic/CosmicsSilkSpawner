@@ -22,6 +22,7 @@ public class CustomListener implements Listener {
 
         css.setSpawnedType(cs.getSpawnedType());
         meta.setBlockState(css);
+        //css.getCreatureTypeName() == name of mob inside of spawner
         meta.setDisplayName("[" + css.getCreatureTypeName() + "] Spawner");
         spawner_to_give.setItemMeta(meta);
 
