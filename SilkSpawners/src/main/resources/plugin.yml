@@ -1,0 +1,6 @@
+name: CosmicsSilkSpawners
+version: ${project.version}
+main: me.cosmic.cosmicssilkspawners.CosmicsSilkSpawners
+api-version: 1.16
+authors: [ Cosmic ]
+description: Cosmic's Silk Spawners
