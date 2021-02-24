@@ -9,26 +9,26 @@ public class SpawnerBreakEvent extends Event {
 
     public static final HandlerList handlers = new HandlerList();
 
-    Player breaker;
-    Block spawner;
+    Player breaker;//faster to type
+    Block spawner;//faster to type
 
     public SpawnerBreakEvent(Player breaker, Block spawner) {
-        this.breaker = breaker;
-        this.spawner = spawner;
+        this.breaker = breaker;//just implements from above
+        this.spawner = spawner;//just implements from above
     }
 
     public Player getBreaker() {
-        return breaker;
+        return breaker;//check if its a player and returns breaker
     }
 
     public Block getSpawner() {
-        return spawner;
+        return spawner;//checks what block and returns spawner
     }
 
     public HandlerList getHandlers() {
-        return handlers;
+        return handlers;//just grabs handlers
     }
     public static HandlerList getHandlerList(){
-        return handlers;
+        return handlers;//checks if they are all there
     }
 }
