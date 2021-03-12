@@ -13,9 +13,9 @@ import org.bukkit.event.block.BlockBreakEvent;
 public class BlockBreakListener implements Listener {
     @EventHandler
     public void onBlockBreak(BlockBreakEvent e){
-        Block blockBroken = e.getBlock();//Checks what block gets broken
-        if (blockBroken.getType().equals(Material.SPAWNER) && e.getPlayer().getInventory().getItemInMainHand().containsEnchantment(Enchantment.SILK_TOUCH) && e.getPlayer().hasPermission("csspawner.silk")){//checks if player has the enchant, has permission and the broken block is a spawner
-            Bukkit.getServer().getPluginManager().callEvent(new SpawnerBreakEvent(e.getPlayer(), blockBroken));//calls an event to drop the spawner type
+        Block blockBroken = e.getBlock();
+        if (blockBroken.getType().equals(Material.SPAWNER) && e.getPlayer().getInventory().getItemInMainHand().containsEnchantment(Enchantment.SILK_TOUCH) && e.getPlayer().hasPermission("csspawner.silk")){
+            Bukkit.getServer().getPluginManager().callEvent(new SpawnerBreakEvent(e.getPlayer(), blockBroken));
         }
 
     }
