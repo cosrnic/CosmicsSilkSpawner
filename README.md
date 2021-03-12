@@ -10,3 +10,4 @@ Cosmic's Silk Spawners
 
 This plugin is very basic.
 
+SpigotMC: https://www.spigotmc.org/resources/cosmics-silk-spawner.90015/
