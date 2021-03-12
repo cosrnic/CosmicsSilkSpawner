@@ -8,4 +8,3 @@ Cosmic's Silk Spawners
 
 This plugin is very basic.
 
-SpigotMC - COMING SOON
